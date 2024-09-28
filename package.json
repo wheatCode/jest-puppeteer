@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "test1": "jest __tests__/1.js",
+    "test2": "jest __tests__/2.js",
+    "test3": "jest __tests__/3.js"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "puppeteer": "^1.17.0",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
