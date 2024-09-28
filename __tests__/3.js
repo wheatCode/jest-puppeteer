@@ -35,9 +35,6 @@ describe('測試開啟網頁', () => {
       await page.waitFor(3000);
       await page.click('#search > div.search > i');
       await page.waitFor(3000);
-      // await page.waitForSelector('tdle:nth-child(2) > tbody > tr:nth-child(2) > td', {
-      //   visible: true,
-      // });
       const stock_name = await page.$eval('div.panel > table:nth-child(2) > tbody > tr:nth-child(2) > td'
                                           ,el => el.innerText );
       console.log(stock_name);
